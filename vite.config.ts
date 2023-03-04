@@ -6,6 +6,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from '@uni-helper/vite-plugin-uni-components'
 import Inspect from 'vite-plugin-inspect'
 import UniLayouts from '@uni-helper/vite-plugin-uni-layouts'
+import commonjs from '@rollup/plugin-commonjs'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -16,6 +17,7 @@ export default defineConfig({
     },
   },
   plugins: [
+    commonjs(),
     UniLayouts(),
     // Make sure it before `Uni()`
     Components({

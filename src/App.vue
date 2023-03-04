@@ -8,5 +8,5 @@ onHide(() => {
 </script>
 
 <style lang="scss">
-  @import "vk-uview-ui/index.scss";
+  @import "uview-plus/index.scss";
 </style>

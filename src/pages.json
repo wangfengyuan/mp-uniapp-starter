@@ -11,12 +11,31 @@
   },
   "pages": [
     { "path": "pages/index" },
-    { "path": "pages/chat" }
+    { "path": "pages/me" }
   ],
+  "tabBar": {
+    "color": "#444444",
+    "selectedColor": "#6190E8",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "text": "首页",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/homed.png"
+      },
+      {
+        "pagePath": "pages/me",
+        "text": "我的",
+        "iconPath": "static/images/me.png",
+        "selectedIconPath": "static/images/med.png"
+      }
+    ]
+  },
   "easycom": {
     "autoscan": true,
     "custom": {
-      "^u-(.*)": "vk-uview-ui/components/u-$1/u-$1.vue"
+      "^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
     }
   }
 }

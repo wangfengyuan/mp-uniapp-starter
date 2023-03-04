@@ -1,4 +1,4 @@
-# Starter Uni
+# Starter Uniapp
 
 ## Features
 
@@ -16,35 +16,24 @@
 
 - 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
 
-## Try it now
-
-### GitHub Template
-
-[Create a repo from this template on GitHub](https://github.com/zguolee/starter-uni/generate).
-
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit zguolee/starter-uni my-starter-uni-app
-cd my-starter-uni-app
+npx degit wangfengyuan/mp-uniapp my-mp-uniapp
+cd my-mp-uniapp
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+pnpm run dev:mp-weixin
 ```
 
 ## Checklist
 
 When you use this template, try follow the checklist to update your info properly
 
-- [ ] Change the author name in `LICENSE`
 - [ ] Change the name in `package.json`
 - [ ] Change the `navigationBarTitleText` in `src/pages.json`
 - [ ] Change the `name` and `appid` in `src/pages.json`
-- [ ] Remove the `.github` folder which contains the funding info
 - [ ] Clean up the READMEs
 
 And, enjoy :)
-
-## License
-
-[MIT](./LICENSE) License &copy; 2022-PRESENT [Neil Lee](https://github.com/zguolee)

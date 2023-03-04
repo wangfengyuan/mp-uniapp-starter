@@ -1,6 +1,6 @@
 import { createSSRApp } from 'vue'
 import UniLayouts from 'virtual:uni-layouts'
-import uView from 'vk-uview-ui'
+import uviewPlus from 'uview-plus'
 import App from './App.vue'
 import { setupPinia } from '~/modules/pinia'
 import 'uno.css'
@@ -12,7 +12,7 @@ export function createApp() {
   // https://pinia.vuejs.org/
   setupPinia(app)
   // 使用 uView UI
-  app.use(uView)
+  app.use(uviewPlus)
   app.use(UniLayouts)
 
   return { app }
